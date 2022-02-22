@@ -4,3 +4,43 @@
     --txt-color: #2B2B2B; 
     --detail-color: #79BA00; 
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin-bottom: 10px;
+      
+  }
+
+.foot-box{
+    color: var(--txt-color);
+    background-color: var(--box-bgg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1, .box2, .box3, .box4 {
+    margin: 30px;
+    list-style: none;
+    
+}
+
+
+
+
+
+@media screen and (min-width: 720px) {
+
+    .foot-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
