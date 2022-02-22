@@ -10,11 +10,45 @@
     padding: 0;
 }
 
+a:link{
+    text-decoration: none;
+    color: var(--txt-color);
+}
+
 .logo {
     width: 100%;
     height: auto;
     max-width: 150px;
     margin-bottom: 10px;
+      
+  }
+
+  .oversigt{
+      display: flex;
+      justify-content: space-between;
+      margin: 30px;
+      background-color: var(--detail-color);
+      text-decoration: underline;
+  }
+
+  .nav-dato, .nav-titel, .nav-kategori, .nav-sted, .nav-pris{
+    margin: 20px;   
+}
+
+  .arrangement1, .arrangement2, .arrangement3, .arrangement4, .arrangement5, .arrangement6, .arrangement7 {
+      display: flex;
+      margin: 30px;
+      background-color: var(--box-bgg-color);
+      justify-content: space-between;
+      
+  }
+
+  .titel{
+      color: var(--detail-color);
+  }
+
+  .dato, .titel, .kategori, .sted, .pris{
+      margin: 20px;
       
   }
 
