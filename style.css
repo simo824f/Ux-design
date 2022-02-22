@@ -10,20 +10,6 @@
     padding: 0;
 }
 
-
-.flex-container {
-    display: flex;
-  }
-  
-  .flex-container > div {
-    color: var(--txt-color);
-    width: auto;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 20px;
-  }
-
 .logo {
     width: 100%;
     height: auto;
@@ -45,6 +31,8 @@
     list-style: none;
     
 }
+
+
 
 
 
