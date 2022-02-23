@@ -8,6 +8,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a:link{
@@ -20,6 +21,28 @@ a:visited{
     color: var(--txt-color);
 }
 
+.arrangement-filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.event, .film, .litteratur, .musik{
+    margin: 15px;
+    background-color: var(--detail-color);
+    padding: 8px;
+}
+
+.event-logo, .film-logo, .litteratur-logo, .musik-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    max-width: 35px;
+
+}
+
 .oversigt{
     display: flex;
     justify-content: space-between;
@@ -29,7 +52,7 @@ a:visited{
 }
 
 .nav-dato, .nav-titel, .nav-kategori, .nav-sted, .nav-pris{
-  margin: 20px;   
+  margin: 18px;   
 }
 
 .arrangement1, .arrangement2, .arrangement3, .arrangement4, .arrangement5, .arrangement6, .arrangement7 {
@@ -37,6 +60,7 @@ a:visited{
     margin: 30px;
     background-color: var(--box-bgg-color);
     justify-content: space-between;
+    border-radius: 8px;
     
 }
 
@@ -130,6 +154,10 @@ a:visited{
       
   }
 
+footer{
+    padding-top: 50px;
+}
+
 .foot-box{
     color: var(--txt-color);
     background-color: var(--box-bgg-color);
@@ -139,7 +167,7 @@ a:visited{
 }
 
 .box1, .box2, .box3, .box4 {
-    margin: 30px;
+    margin: 50px;
     list-style: none;
     
 }
