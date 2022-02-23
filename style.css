@@ -52,16 +52,75 @@ a:visited{
 
 .flex-container {
     display: flex;
+    padding-right: 70px;
+    padding-left: 0px;
   }
   
-  .flex-container > div {
+.flex-container > div {
     color: var(--txt-color);
     width: auto;
     margin: 10px;
-    text-align: center;
-    line-height: 75px;
     font-size: 20px;
-  }
+    margin-left: 40px;
+}
+
+
+.tilmeld {
+    border: none;
+    color: #2B2B2B;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:#79BA00;
+    margin: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.lille{
+    color: var(--txt-color);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+.green{
+    color: var(--detail-color);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.brødtekst{
+    color: var(--txt-color);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 13px;
+    padding-bottom: 28px;
+}
+.stor{
+    font-size: 30px;
+    color: var(--txt-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.andre{
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.andre-begivenheder{
+    display: flex;
+    padding-bottom: 40px;
+}
+      
+.andre-begivenheder > div {
+    background-color: var(--box-bgg-color);
+    color: var(--txt-color);
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+
 
 .logo {
     width: 100%;
