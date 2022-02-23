@@ -173,6 +173,129 @@ footer{
 }
 
 
+/* nav bar */
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 20px;
+    
+}
+
+nav img {
+    background-color: var(--box-bgg-color);
+    padding: 5px;
+    width: auto;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px var(--txt-color);
+    
+}
+/* INTRO SECTION */
+
+.intro-box img {
+    height: auto;
+    padding: 5px;    
+}
+.intro-box a {
+    padding: 5px;
+    grid-row: 3/4;
+    background-color: var(--box-bgg-color);
+    border-radius: 5px;
+    
+}
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.intro-box {
+    grid-row: 3/4;
+    margin: 27px;
+    background-color: var(--box-bgg-color);
+    border-radius: 5px;
+    text-align: center;
+}
+.intro h1{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    font-size: 50px;
+}
+
+.intro h3{
+    grid-row: 2/3;
+    grid-column: 1/3;
+    font-size: 40px;
+}
+.intro-box p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* menu sections */
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 250px;
+    margin-left: 250px;
+    grid-row-gap: 20px;
+    
+    
+}
+.menu-box a{
+    padding: 35px;
+    
+}
+.menu-box img{
+    padding: 35px;
+    
+}
+.menu-box{
+    background-color: var(--box-bgg-color);
+    border-radius: 5px;
+    margin: 10px;
+    justify-self: center;
+    text-align: center;
+    box-shadow: 3px 5px 10px var(--txt-color);
+}
+.menu-box h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+header{
+    display: flex;
+    box-shadow: 3px 5px 10px var(--txt-color);
+    justify-content: space-around;
+}
+header a{
+    display: flex;
+    background-color: var(--box-bgg-color);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    align-content: space-between;
+    border-radius: 5px;
+    margin: 10px;
+    width: 250px;
+
+}
+header a img {
+    padding: 5px;
+    float: right;
+}
+
+
 @media screen and (min-width: 720px) {
 
     .foot-box{
