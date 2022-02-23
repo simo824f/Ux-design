@@ -27,19 +27,21 @@ a:visited{
     margin-top: 50px;
 }
 
-.event, .film, .litteratur, .musik{
+.event, .film, .litteratur, .musik, .it, .fordrag{
+    display: flex;
+    align-items: center;
     margin: 15px;
     background-color: var(--detail-color);
     padding: 8px;
 }
 
-.event-logo, .film-logo, .litteratur-logo, .musik-logo{
+.event-logo, .film-logo, .litteratur-logo, .musik-logo, .it-logo, .fordrag-logo{
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 5px;
     width: 100%;
     height: auto;
-    max-width: 35px;
+    max-width: 25px;
 
 }
 
@@ -99,6 +101,10 @@ a:visited{
     margin: 100px;
     margin-top: 30px;
     margin-bottom: 10px;
+}
+
+.right, .left{
+    margin-top: 80px;
 }
 
 .lille{
